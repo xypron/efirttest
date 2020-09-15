@@ -1,0 +1,10 @@
+choice
+	prompt "Architecture select"
+
+config AARCH64
+	bool "ARM 64bit"
+
+config ARM
+	bool "ARM 32bit"
+
+endchoice
