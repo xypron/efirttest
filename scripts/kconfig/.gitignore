@@ -1,10 +1,9 @@
 # SPDX-License-Identifier: GPL-2.0-only
 /qconf-moc.cc
 *conf-cfg
-
-#
-# configuration programs
-#
+lexer.lex.c
+parser.tab.c
+parser.tab.h
 conf
 mconf
 nconf
