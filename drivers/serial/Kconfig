@@ -1,0 +1,30 @@
+menu "Serial drivers"
+
+choice
+	prompt "Select UART driver"	
+
+config SERIAL_PL010
+	bool "ARM PL010 driver"
+	help
+	 Driver for PL010 UART
+
+endchoice
+
+config BAUDRATE
+	int "Baudrate"
+	default 115200
+	help
+	 "Value for the baudrate"
+
+config UART_BASE
+	hex "UART base address"
+
+config UART_CLOCK
+	int "UART clock rate"
+
+config UART_SHIFT
+	int "UART register shift"
+	help
+	 "Distance in bytes between registers of the device"
+
+endmenu

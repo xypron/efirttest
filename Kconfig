@@ -3,6 +3,7 @@ mainmenu "EFI Runtime Test $(EFIRTVERSION) Configuration"
 comment "Compiler: $(CC_VERSION_TEXT)"
 
 source "arch/Kconfig"
+source "drivers/Kconfig"
 
 menu "General setup"
 
