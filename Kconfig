@@ -1,0 +1,6 @@
+menu "General setup"
+
+config dummy
+	bool "dummy"
+
+endmenu
