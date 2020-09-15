@@ -1,5 +1,6 @@
 choice
 	prompt "Architecture select"
+	default AARCH64
 
 config AARCH64
 	bool "ARM 64bit"
